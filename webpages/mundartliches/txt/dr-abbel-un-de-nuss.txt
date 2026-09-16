@@ -1,0 +1,12 @@
+Here is the extracted information:
+
+Saxon: "Ä Abbel hing am Weihnachtsboom Un dachte in sein Griebse: De goldne Nuß am Zweich da ohm, das wär mei Fall. Ich liebse. De gleene Nuß war ihrerseits Däm Abbel ooch gewoochen. Un so hat jederdorch sein Reiz Dn andern angezoochen. Se dreimten beede vor sich hin Un winschten bloß das eene: Ämal im gleichen Maachen drin Zu schtärm. Ach wär das scheene!"
+Source: Lene Voigt
+Origin: 
+Year: 2020 
+
+Note: The year is not the original publication year of the text, but rather the year the webpage was published or updated, as indicated by the `datePublished` meta tag. The origin of the author is not specified in the provided HTML.
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/dr-abbel-un-de-nuss/
+Tags: poetry

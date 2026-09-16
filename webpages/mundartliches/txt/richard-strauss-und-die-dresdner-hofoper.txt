@@ -1,0 +1,21 @@
+There is no Saxon text in the provided HTML. The text appears to be in standard German. 
+
+However, I can provide the metadata:
+
+Saxon: 
+Source: Sachsen-Lese
+Origin: 
+Year: 2017 
+
+Note: The year is based on the "dateModified" meta tag in the HTML, which is "2017-01-13T09:02:11+01:00". 
+
+If you're looking for Saxon text, you might want to check the first HTML you provided, which contains a poem in the Saxon dialect. The output for that HTML is:
+
+Saxon: "Zu Neijahr hatt'ch mer vorgenomm, De Daache alle, wiese gomm, Zu gondrolliern druff, obse nich 'ne gleene Freide hamm fier mich. Un wärklich, änne Gleenichgeet Zum Frei'n gab's bei mir jederzeet. Jn mein Galänder malte ich Drum unter jeden Daach ä Schtrich. Un wie nu's Jahr zu Ende war, da zählt' ich deitlich, zählt' ich glar Dreihundertfinfunsächzichs Freiden (Dadsächlich, ich bin zu beneiden.)”
+Source: Lene Voigt
+Origin: 
+Year:
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/richard-strauss-und-die-dresdner-hofoper/
+Tags: poetry

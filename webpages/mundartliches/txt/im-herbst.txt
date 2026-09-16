@@ -1,0 +1,12 @@
+Here is the extracted information:
+
+Saxon: "Horaus, horaus, gieht mr immer an Wage naus. Michele (1) is vorüber, mei Vieh ka rüber un nüber, ka in Nachbars Kraut un Möhrn, ka’s der Bauer net verwehrn. Wullmer nich ball Küh austreim, wullmer nich ball Kase reim, wullmer nich ball Kuchen backen, wullmer nich ball Kirmeß machen? A’hollo! Holei, holei, treib mr denn noch nich ball ei? Ei ju, ei ju, ‘s fehlt blus noch ne eenz’ge Kuh. ‘s fehlt blus noch de bunte Schecke, die muss hinnern Zaune stecke. Wo is denn der Ziegenbuck? Der is ins Krautfeld neigehuppt."
+Source: Verfasser unbekannt
+Origin: 
+Year: 
+
+Note: The origin and year fields are left empty as the provided HTML does not contain this information. The source field lists "Verfasser unbekannt" which is German for "author unknown".
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/im-herbst/
+Tags: poetry

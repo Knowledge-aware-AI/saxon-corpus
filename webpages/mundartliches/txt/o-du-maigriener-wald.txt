@@ -1,0 +1,22 @@
+To extract the Saxon text with additional metadata from the provided HTML, we need to identify the relevant parts of the HTML that contain the Saxon text and the metadata.
+
+From the first HTML example, we can see that the Saxon text is contained within the `<p>` tags inside the `.absatz` div. The metadata, such as the source (author), origin, and year, can be found in the `<meta>` tags and other elements.
+
+Here is the extracted information for the first HTML example:
+
+Saxon: Zu Neijahr hatt'ch mer vorgenomm, De Daache alle, wiese gomm, Zu gondrolliern druff, obse nich 'ne gleene Freide hamm fier mich. Un wärklich, änne Gleenichgeet Zum Frei'n gab's bei mir jederzeet. Jn mein Galänder malte ich Drum unter jeden Daach ä Schtrich. Un wie nu's Jahr zu Ende war, da zählt' ich deitlich, zählt' ich glar Dreihundertfinfunsächzichs Freiden (Dadsächlich, ich bin zu beneiden.)
+Source: Lene Voigt
+Origin: 
+Year: 
+
+For the second HTML example, the Saxon text is also contained within the `<p>` tags, but there are no `<p>` tags with Saxon text in this example. However, we can see that there is a Liedpostkarte (song postcard) with the title "O du maigriener Wald!".
+
+
+Saxon: En Sunntig do gieng iech in Wald, ´s war zeitig noch ganz in dr Früh...
+Source: Otto Peuschel
+Origin: 
+Year: 1906 (from the image title "o_du_maigriener_wald_1906_")
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/o-du-maigriener-wald/
+Tags: poetry

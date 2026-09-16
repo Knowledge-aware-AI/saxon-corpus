@@ -1,0 +1,12 @@
+Here is the extracted information:
+
+Saxon: "Friher, do hatten de Leite mehr Kinner, ihrer achte, neine,... soßen se mit Vodr un Mutter um 'nen weißgescheierten Tisch, drauf e ticht'ger Tupp vull Apern geschitt' wurn. Ich bi' a Klipplmadl, dreh is Zwernsfadl, Sitz' ben Klippelsackl álla Omd, Loss da Klipl sprenga, thu mir Liedl senga On' bi' flässich, dess der Arm oft brommt. Klipp klapp klipp Klippl klipp klapp usw."
+Source: Dipl.-Päd. Ursula Brekle
+Origin: 
+Year: 2021
+
+Note: The origin is not specified in the provided HTML, so it is left empty. The year is extracted from the meta tag "datePublished" which is set to "2021-01-01T00:00:00+01:00".
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/geschichten-aus-der-klippl-schul/
+Tags: poetry

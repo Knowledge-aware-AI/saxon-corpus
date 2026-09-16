@@ -1,0 +1,13 @@
+Here is the extracted Saxon text with additional metadata:
+
+Saxon: Zugegähm, wenn wir was saachen, Das wärkt niemals imbosand. Manche hamm uns drum im Maachen, Schimfen gar uff unser Land. Andre wieder liem das grade, Die zieht’s färmlich bei uns hin. Unsre Schbrachenmarmelade Fließt so rächt nach dän ihrn Sinn. Darum wollmer uns nicht schtreiten Iber Simbadien un so. Scheint uns doch bei andern Leiten Ooch nich alles gomme il foh.
+
+Source: Lene Voigt
+Origin: 
+Year: 1934
+
+Note: The origin is not explicitly mentioned in the provided HTML, so it is left blank. The year is mentioned as 1934 in the "Quelle" section of the HTML, which refers to the source of the text, "Kurze Pause 5/1934".
+
+Date: 2026-07-10
+Webpage: https://www.sachsen-lese.de/streifzuege/mundartliches/saechssches-begaenntnis/
+Tags: poetry
