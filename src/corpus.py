@@ -90,18 +90,40 @@ def corpus_details(csv_path="data.csv"):
     """Print details about the corpus."""
     df = pd.read_csv(csv_path)
     total_entries = len(df)
-    total_saxon_length = df['length'].sum()
-    total_parallel_length = int(df['German'].str.len().sum())
-    unique_sources = df['Source'].nunique()
-    unique_origins = df['Origin'].nunique()
-    unique_years = df['Year'].nunique()
+    total_saxon_length = df['Saxon'].fillna('').str.len().sum()
+    parallel_entries = df['German'].notna()
+    total_parallel_length = df.loc[parallel_entries, 'Saxon'].fillna('').str.len().sum()
+
+    source_nan = df['Source'].isna().sum()
+    unique_sources = df.loc[df['Source'].notna(), 'Source'].nunique()
+    origin_nan = df['Origin'].isna().sum()
+    unique_origins = df.loc[df['Origin'].notna(), 'Origin'].nunique()
+
+    year_text = df['Year'].astype('string')
+    years = pd.to_numeric(
+        year_text.str.extract(r'(\d{4})', expand=False),
+        errors='coerce',
+    )
+    years = years - year_text.str.startswith('<', na=False).astype(int)
+    year_nan = years.isna().sum()
+
+    tag_counts = df['Tags'].fillna('nan').value_counts()
     
     print(f"Total entries: {total_entries}")
-    print(f"Total Saxon length: {total_saxon_length}")
-    print(f"Parallel data length: {total_parallel_length}")
-    print(f"Unique sources: {unique_sources}")
-    print(f"Unique origins: {unique_origins}")
-    print(f"Unique years: {unique_years}")
+    print(f"Total Saxon characters: {total_saxon_length}")
+    print(f"Saxon characters with parallel German data: {total_parallel_length}")
+    print(f"Unique sources: {unique_sources} (nan: {source_nan})")
+    print(f"Unique origins: {unique_origins} (nan: {origin_nan})")
+    print(f"Entries before 1930: {(years < 1930).sum()}")
+    print(f"Entries before 1950: {(years < 1950).sum()}")
+    print(f"Entries before 1990: {(years < 1990).sum()}")
+    print(f"Entries before 2020: {(years < 2020).sum()}")
+    print(f"Entries after 2020: {(years > 2020).sum()}")
+    print(f"Year nan: {year_nan}")
+    print("Tags:")
+    for tag, count in tag_counts.items():
+        percentage = count / total_entries * 100
+        print(f"  {tag}: {count} ({percentage:.1f}%)")
 
 if __name__ == "__main__":
     df = pd.read_csv("data.csv")
