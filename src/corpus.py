@@ -106,20 +106,32 @@ def corpus_details(csv_path="data.csv"):
     )
     years = years - year_text.str.startswith('<', na=False).astype(int)
     year_nan = years.isna().sum()
+    smallest_year = years.min()
+    largest_year = years.max()
+
+    year_counts = {
+        '<= 1930': (years <= 1930).sum(),
+        '<= 1950': (years <= 1950).sum(),
+        '<= 1990': (years <= 1990).sum(),
+        '<= 2020': (years <= 2020).sum(),
+        'after 2020': (years > 2020).sum(),
+        'nan': year_nan,
+    }
 
     tag_counts = df['Tags'].fillna('nan').value_counts()
     
     print(f"Total entries: {total_entries}")
     print(f"Total Saxon characters: {total_saxon_length}")
+    print(f"Entries with parallel German data: {parallel_entries.sum()}")
     print(f"Saxon characters with parallel German data: {total_parallel_length}")
     print(f"Unique sources: {unique_sources} (nan: {source_nan})")
     print(f"Unique origins: {unique_origins} (nan: {origin_nan})")
-    print(f"Entries before 1930: {(years < 1930).sum()}")
-    print(f"Entries before 1950: {(years < 1950).sum()}")
-    print(f"Entries before 1990: {(years < 1990).sum()}")
-    print(f"Entries before 2020: {(years < 2020).sum()}")
-    print(f"Entries after 2020: {(years > 2020).sum()}")
-    print(f"Year nan: {year_nan}")
+    print(f"Smallest year: {int(smallest_year)}")
+    print(f"Largest year: {int(largest_year)}")
+    print("Years:")
+    for period, count in year_counts.items():
+        percentage = count / total_entries * 100
+        print(f"  {period}: {count} ({percentage:.1f}%)")
     print("Tags:")
     for tag, count in tag_counts.items():
         percentage = count / total_entries * 100
