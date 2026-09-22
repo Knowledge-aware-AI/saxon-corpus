@@ -1,5 +1,6 @@
 # SaxonLLM
 
+The associated report can be found [here](Report.pdf)
 
 # Data Sources
 
@@ -45,13 +46,3 @@ Inaccurate recognition, with *deu* and *frk*
 ### [Kraken](https://github.com/mittagessen/kraken)
 Less artefacts than Tesseract, but equally inaccurate recognition
 No improvement with either model *german_print* and *austriannewspapers*
-
-
-
-
-# TODO
-Git repo
-
-Report: Introduction, Related Work (other german dialects), what is saxon, low resource languages works, methodology (where I spent most time), challenges (OCR, heuristic vs inconsistent), statistic (Dataset size),critical discussion & outlook
-rather stay short, no need to bloat
-until end of september is okay
