@@ -1,0 +1,3404 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <rdf:Description rdf:about="http://arxiv.org/abs/2307.00382">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Pin-Jie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saeed</foaf:surname>
+                        <foaf:givenName>Muhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chang</foaf:surname>
+                        <foaf:givenName>Ernie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scholman</foaf:surname>
+                        <foaf:givenName>Merel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_21"/>
+        <dcterms:isReferencedBy rdf:resource="#item_26"/>
+        <link:link rdf:resource="#item_22"/>
+        <link:link rdf:resource="#item_23"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Important</dc:subject>
+        <dc:title>Low-Resource Cross-Lingual Adaptive Training for Nigerian Pidgin</dc:title>
+        <dcterms:abstract>Developing effective spoken language processing systems for low-resource languages poses several challenges due to the lack of parallel data and limited resources for fine-tuning models. In this work, we target on improving upon both text classification and translation of Nigerian Pidgin (Naija) by collecting a large-scale parallel English-Pidgin corpus and further propose a framework of cross-lingual adaptive training that includes both continual and task adaptive training so as to adapt a base pre-trained model to low-resource languages. Our studies show that English pre-trained language models serve as a stronger prior than multilingual language models on English-Pidgin tasks with up to 2.38 BLEU improvements; and demonstrate that augmenting orthographic data and using task adaptive training with back-translation can have a significant impact on model performance.</dcterms:abstract>
+        <dc:date>2023-07-01</dc:date>
+        <dc:identifier>DOI 10.48550/arXiv.2307.00382</dc:identifier>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2307.00382</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 14:55:21</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:description>arXiv:2307.00382 [cs]</dc:description>
+        <prism:number>arXiv:2307.00382</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_21">
+       <rdf:value>Comment: To appear in INTERSPEECH 2023</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_26">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;it maps a proven path from chaotic, scarce dialect text to a clean, scalable dataset—gather widely across orthographies, anchor with natural parallel texts, back-translate from real dialect, and keep monolingual data aside for initial language adaptation.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/22/Lin et al. - 2023 - Low-Resource Cross-Lingual Adaptive Training for Nigerian Pidgin.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2307.00382v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 14:55:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/23/2307.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2307.00382</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 14:55:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.coling-main.174/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 31st International Conference on Computational Linguistics</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Abu Dhabi, UAE</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saeed</foaf:surname>
+                        <foaf:givenName>Muhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bourgonje</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Demberg</foaf:surname>
+                        <foaf:givenName>Vera</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rambow</foaf:surname>
+                        <foaf:givenName>Owen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wanner</foaf:surname>
+                        <foaf:givenName>Leo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Apidianaki</foaf:surname>
+                        <foaf:givenName>Marianna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Khalifa</foaf:surname>
+                        <foaf:givenName>Hend</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eugenio</foaf:surname>
+                        <foaf:givenName>Barbara Di</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schockaert</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_27"/>
+        <link:link rdf:resource="#item_25"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Implicit Discourse Relation Classification For Nigerian Pidgin</dc:title>
+        <dcterms:abstract>Nigerian Pidgin (NP) is an English-based creole language spoken by nearly 100 million people across Nigeria, and is still low-resource in NLP. In particular, there are currently no available discourse parsing tools, which, if available, would have the potential to improve various downstream tasks. Our research focuses on implicit discourse relation classification (IDRC) for NP, a task which, even in English, is not easily solved by prompting LLMs, but requires supervised training. % With this in mind, we have developed a framework for the task, which could also be used by researchers for other English-lexified languages. We systematically compare different approaches to the low resource IDRC task: in one approach, we use English IDRC tools directly on the NP text as well as on their English translations (followed by a back-projection of labels). In another approach, we create a synthetic discourse corpus for NP, in which we automatically translate the English discourse-annotated corpus PDTB to NP, project PDTB labels, and then train an NP IDR classifier. The latter approach of training a “native” NP classifier outperforms our baseline by 13.27% and 33.98% in f₁ score for 4-way and 11-way classification, respectively.</dcterms:abstract>
+        <dc:date>2025-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.coling-main.174/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 15:30:53</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>2561–2574</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>COLING 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_27">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;dataset creation&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/25/Saeed et al. - 2025 - Implicit Discourse Relation Classification For Nigerian Pidgin.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.coling-main.174.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 15:30:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2024.arabicnlp-1.25/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2024.arabicnlp-1.25</dc:identifier>
+                <dc:title>Proceedings of the Second Arabic Natural Language Processing Conference</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Bangkok, Thailand</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saeed</foaf:surname>
+                        <foaf:givenName>Muhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mohamed</foaf:surname>
+                        <foaf:givenName>Asim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mohamed</foaf:surname>
+                        <foaf:givenName>Mukhtar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shehata</foaf:surname>
+                        <foaf:givenName>Shady</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdul-Mageed</foaf:surname>
+                        <foaf:givenName>Muhammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Habash</foaf:surname>
+                        <foaf:givenName>Nizar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouamor</foaf:surname>
+                        <foaf:givenName>Houda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eskander</foaf:surname>
+                        <foaf:givenName>Ramy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tomeh</foaf:surname>
+                        <foaf:givenName>Nadi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abu Farha</foaf:surname>
+                        <foaf:givenName>Ibrahim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdelali</foaf:surname>
+                        <foaf:givenName>Ahmed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Touileb</foaf:surname>
+                        <foaf:givenName>Samia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamed</foaf:surname>
+                        <foaf:givenName>Injy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Onaizan</foaf:surname>
+                        <foaf:givenName>Yaser</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alhafni</foaf:surname>
+                        <foaf:givenName>Bashar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Antoun</foaf:surname>
+                        <foaf:givenName>Wissam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khalifa</foaf:surname>
+                        <foaf:givenName>Salam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haddad</foaf:surname>
+                        <foaf:givenName>Hatem</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zitouni</foaf:surname>
+                        <foaf:givenName>Imed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>AlKhamissi</foaf:surname>
+                        <foaf:givenName>Badr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Almatham</foaf:surname>
+                        <foaf:givenName>Rawan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mrini</foaf:surname>
+                        <foaf:givenName>Khalil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_30"/>
+        <link:link rdf:resource="#item_29"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>From Nile Sands to Digital Hands: Machine Translation of Coptic Texts</dc:title>
+        <dcterms:abstract>The Coptic language, rooted in the historical landscapes of Egypt, continues to serve as a vital liturgical medium for the Coptic Orthodox and Catholic Churches across Egypt, North Sudan, Libya, and the United States, with approximately ten million speakers worldwide. However, the scarcity of digital resources in Coptic has resulted in its exclusion from digital systems, thereby limiting its accessibility and preservation in modern technological contexts. Our research addresses this issue by developing the most extensive parallel Coptic-centered corpus to date. This corpus comprises over 8,000 parallel sentences between Arabic and Coptic, and more than 24,000 parallel sentences between English and Coptic. We have also developed the first neural machine translation system between Coptic, English, and Arabic. Lastly, we evaluate the capability of leading proprietary Large Language Models (LLMs) to translate to and from Coptic using a few-shot learning approach (in-context learning). Our code and data are available at https://github.com/UBC-NLP/copticmt.</dcterms:abstract>
+        <dc:date>2024-08</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.arabicnlp-1.25/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 15:31:46</dcterms:dateSubmitted>
+        <z:shortTitle>From Nile Sands to Digital Hands</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>298–308</bib:pages>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_30">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Treat this as a strategic sanity-check rather than a dataset-building playbook. It tells you that scraping real parallel text is table stakes, that you should keep your modeling setup dedicated (German↔Saxon, not general multilingual), and that you should stay open to smaller fine-tuned models even in the era of massive LLMs. For actual techniques on how to &lt;em&gt;generate&lt;/em&gt; and &lt;em&gt;filter&lt;/em&gt; synthetic Saxon data, this paper offers little.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/29/Saeed et al. - 2024 - From Nile Sands to Digital Hands Machine Translation of Coptic Texts.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.arabicnlp-1.25.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-04 15:31:47</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-89176-251-0">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.acl-long.429</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-251-0</dc:identifier>
+                <dc:title>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Vienna, Austria</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pei</foaf:surname>
+                        <foaf:givenName>Renhao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Yihong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lin</foaf:surname>
+                        <foaf:givenName>Peiqin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yvon</foaf:surname>
+                        <foaf:givenName>François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schuetze</foaf:surname>
+                        <foaf:givenName>Hinrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Che</foaf:surname>
+                        <foaf:givenName>Wanxiang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nabende</foaf:surname>
+                        <foaf:givenName>Joyce</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shutova</foaf:surname>
+                        <foaf:givenName>Ekaterina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pilehvar</foaf:surname>
+                        <foaf:givenName>Mohammad Taher</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_55"/>
+        <link:link rdf:resource="#item_34"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>Understanding In-Context Machine Translation for Low-Resource Languages: A Case Study on Manchu</dc:title>
+        <dcterms:abstract>In-context machine translation (MT) with large language models (LLMs) is a promising approach for low-resource MT, as it can readily take advantage of linguistic resources such as grammar books and dictionaries.Such resources are usually selectively integrated into the prompt so that LLMs can directly perform translation without any specific training, via their in-context learning capability (ICL).However, the relative importance of each type of resource, e.g., dictionary, grammar book, and retrieved parallel examples, is not entirely clear.To address this gap, this study systematically investigates how each resource and its quality affect the translation performance, with the Manchu language as our case study. To remove any prior knowledge of Manchu encoded in the LLM parameters and single out the effect of ICL, we also experiment with an enciphered version of Manchu texts.Our results indicate that high-quality dictionaries and good parallel examples are very helpful, while grammars hardly help.In a follow-up study, we showcase a promising application of in-context MT: parallel data augmentation as a way to bootstrap a conventional MT model. When monolingual data abound, generating synthetic parallel data through in-context MT offers a pathway to mitigate data scarcity and build effective and efficient low-resource neural MT systems.</dcterms:abstract>
+        <dc:date>2025-07</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/2025.acl-long.429/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:52:32</dcterms:dateSubmitted>
+        <z:shortTitle>Understanding In-Context Machine Translation for Low-Resource Languages</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>8767–8788</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>ACL 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_55">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Our findings highlight that high-quality dictionaries and properly retrieved parallel examples are the most influential factors, while grammar and CoT prompting appears to have no noticeable benefit. Furthermore, through the encipherment experiment, we disentangle the effects of LLMs’ prior knowledge of Manchu from their in-context learning ability. Our results show that while LLMs possess some prior knowledge of the language, they primarily rely on in-context learning for translation. Finally, our follow-up study shows a practical application of in-context MT: generating synthetic parallel data.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/34/Pei et al. - 2025 - Understanding In-Context Machine Translation for Low-Resource Languages A Case Study on Manchu.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.acl-long.429.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:52:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2509.10414">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wynter</foaf:surname>
+                        <foaf:givenName>Adrian de</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_36"/>
+        <dcterms:isReferencedBy rdf:resource="#item_56"/>
+        <link:link rdf:resource="#item_38"/>
+        <link:link rdf:resource="#item_37"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>Is In-Context Learning Learning?</dc:title>
+        <dcterms:abstract>In-context learning (ICL) allows some autoregressive models to solve tasks via next-token prediction and without needing further training. This has led to claims about these model's ability to solve (learn) unseen tasks with only a few shots (exemplars) in the prompt. However, deduction does not always imply learning, as ICL does not explicitly encode a given observation. Instead, the models rely on their prior knowledge and the exemplars given, if any. We argue that, mathematically, ICL fits the definition of learning; however, its full characterisation requires empirical work. We then carry out a large-scale analysis of ICL ablating out or accounting for memorisation, pretraining, distributional shifts, and prompting style and phrasing. We find that, empirically, ICL is limited in its ability to learn and generalise to unseen tasks. Namely, in the limit where exemplars become more numerous, accuracy is insensitive to exemplar distribution, model, prompt style, and the input's linguistic features. Instead, it deduces patterns from regularities in the prompt, which leads to distributional sensitivity, especially in prompting styles such as chain-of-thought. Given the varied accuracies and on formally similar tasks, we conclude that autoregression's ad-hoc encoding is not a robust mechanism for learning, and suggests limited all-purpose generalisability.</dcterms:abstract>
+        <dc:date>2026-02-11</dc:date>
+        <dc:identifier>DOI 10.48550/arXiv.2509.10414</dc:identifier>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2509.10414</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:52:48</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:description>arXiv:2509.10414 [cs.CL]</dc:description>
+        <prism:number>arXiv:2509.10414</prism:number>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_36">
+       <rdf:value>Comment: Accepted to ICLR 2026 -- CR version</rdf:value>
+    </bib:Memo>
+    <bib:Memo rdf:about="#item_56">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;you can ignore the formal theory, but the empirical results are still operationally relevant. The paper shows that ICL strongly overfits to the specific distribution of its few-shot examples and that complex prompts like Chain-of-Thought are &lt;em&gt;less&lt;/em&gt; robust to variation than simple few-shot. Given your lack of native speakers and Saxon’s orthographic chaos, that’s a practical warning: your ICL baseline will likely just echo whatever patterns happen to be in your exemplars. So it’s not a reason to avoid ICL, but it is a reason to design your eventual ICL evaluation with very diverse shots, simple prompting, and heavy automatic validation rather than assuming ICL gives you &quot;true&quot; dialect understanding.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/38/Wynter - 2026 - Is In-Context Learning Learning.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2509.10414v4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:52:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/37/2509.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2509.10414</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:52:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://aclanthology.org/2025.tacl-1.48/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.1162/tacl.a.18</dc:identifier>
+                <prism:volume>13</prism:volume>
+                <dc:title>Transactions of the Association for Computational Linguistics</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>MIT Press</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge, MA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Köksal</foaf:surname>
+                        <foaf:givenName>Abdullatif</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thaler</foaf:surname>
+                        <foaf:givenName>Marion</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Imani</foaf:surname>
+                        <foaf:givenName>Ayyoob</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Üstün</foaf:surname>
+                        <foaf:givenName>Ahmet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Korhonen</foaf:surname>
+                        <foaf:givenName>Anna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schütze</foaf:surname>
+                        <foaf:givenName>Hinrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_57"/>
+        <link:link rdf:resource="#item_40"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions</dc:title>
+        <dcterms:abstract>Instruction tuning enhances large language models (LLMs) by aligning them with human preferences across diverse tasks. Traditional approaches to create instruction tuning datasets face serious challenges for low-resource languages due to their dependence on data annotation. This work introduces a novel method, Multilingual Reverse Instructions (MURI), which generates high-quality instruction tuning datasets for low-resource languages without requiring human annotators or pre-existing multilingual models. Utilizing reverse instructions and a translation pipeline, MURI produces instruction-output pairs from existing human-written texts in low-resource languages. This method ensures cultural relevance and diversity by sourcing texts from different native domains and applying filters to eliminate inappropriate content. Our dataset, MURI-IT, includes more than 2 million instruction-output pairs across 200 languages. Evaluation by native speakers and fine-tuning experiments with mT5 models demonstrate the approach's effectiveness for both NLU and open-ended generation. We publicly release datasets and models at https://github.com/akoksal/muri.</dcterms:abstract>
+        <dc:date>2025</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/2025.tacl-1.48/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:42</dcterms:dateSubmitted>
+        <z:shortTitle>MURI</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>1032–1055</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_57">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;The paper is indirectly useful as methodological validation: it demonstrates that “reverse” instruction generation—using authentic native text as the output anchor and generating the standard-language side—improves quality and reduces translationese in low-resource settings, which aligns with your back-translation strategy. However, its human evaluation explicitly flags dialects without standard orthography (e.g., Bavarian) as major failure points where automated pipelines mix standard and dialect forms, reinforcing the necessity of your perplexity-gating and orthographic-variation preservation pipeline. The dataset itself is not directly applicable, but its findings validate both your core data architecture and your caution around synthetic pseudo-dialect.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/40/Köksal et al. - 2025 - MURI High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/2025.tacl-1.48.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-89176-332-6">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.emnlp-main.1408</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-332-6</dc:identifier>
+                <dc:title>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Suzhou, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>de Gibert</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Attieh</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vahtola</foaf:surname>
+                        <foaf:givenName>Teemu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aulamo</foaf:surname>
+                        <foaf:givenName>Mikko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Zihao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vázquez</foaf:surname>
+                        <foaf:givenName>Raúl</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Tiancheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tiedemann</foaf:surname>
+                        <foaf:givenName>Jörg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christodoulopoulos</foaf:surname>
+                        <foaf:givenName>Christos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chakraborty</foaf:surname>
+                        <foaf:givenName>Tanmoy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rose</foaf:surname>
+                        <foaf:givenName>Carolyn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Violet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_58"/>
+        <link:link rdf:resource="#item_42"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>Scaling Low-Resource MT via Synthetic Data Generation with LLMs</dc:title>
+        <dcterms:abstract>We investigate the potential of LLM-generated synthetic data for improving low-resource Machine Translation (MT). Focusing on seven diverse target languages, we construct a document-level synthetic corpus from English Europarl, and extend it via pivoting to 147 additional language pairs. Automatic and human evaluation confirm its overall high quality. We study its practical application by (i) identifying effective training regimes, (ii) comparing our data with the HPLT dataset, (iii) studying the effect of varying training data size, and (iiii) testing its utility beyond English-centric MT. Finally, we introduce SynOPUS, a public repository for synthetic parallel datasets. Our findings show that LLM-generated synthetic data, even when noisy, can substantially improve MT performance for low-resource languages.</dcterms:abstract>
+        <dc:date>2025-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1408/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:50</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>27674–27692</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>EMNLP 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_58">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;&lt;strong&gt;it is quite useful, but as empirical validation of your strategy rather than a direct recipe you can copy.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The paper demonstrates that LLM-generated synthetic parallel data can successfully bootstrap low-resource MT when aggressively filtered with automatic metrics (COMET, Bicleaner-AI, language ID, round-trip checks). This supports your core bet that you can build a usable dataset with &lt;strong&gt;no native speakers in the loop&lt;/strong&gt;. It also empirically validates two of your key downstream choices: that a &lt;strong&gt;specialized translation model&lt;/strong&gt; (like your German-centric base) will outperform a general-purpose LLM, and that when parallel data is extremely scarce, &lt;strong&gt;noisy quantity is better than nothing&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The limitation is simply that your starting point is messier: they forward-translated clean, formal English into well-behaved orthographies, whereas you must back-translate orthographically chaotic dialect text. So their pipeline proves the &lt;em&gt;concept&lt;/em&gt;, but your filtering (perplexity gating, round-trip checks, diversity controls) will need to be stricter than theirs.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_42">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/42/de Gibert et al. - 2025 - Scaling Low-Resource MT via Synthetic Data Generation with LLMs.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1408.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.emnlp-main.1484/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.emnlp-main.1484</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-332-6</dc:identifier>
+                <dc:title>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Suzhou, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sainz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perez</foaf:surname>
+                        <foaf:givenName>Naiara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Etxaniz</foaf:surname>
+                        <foaf:givenName>Julen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fernandez de Landa</foaf:surname>
+                        <foaf:givenName>Joseba</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aldabe</foaf:surname>
+                        <foaf:givenName>Itziar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>García-Ferrero</foaf:surname>
+                        <foaf:givenName>Iker</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zabala</foaf:surname>
+                        <foaf:givenName>Aimar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Azurmendi</foaf:surname>
+                        <foaf:givenName>Ekhi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rigau</foaf:surname>
+                        <foaf:givenName>German</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agirre</foaf:surname>
+                        <foaf:givenName>Eneko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Artetxe</foaf:surname>
+                        <foaf:givenName>Mikel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soroa</foaf:surname>
+                        <foaf:givenName>Aitor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christodoulopoulos</foaf:surname>
+                        <foaf:givenName>Christos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chakraborty</foaf:surname>
+                        <foaf:givenName>Tanmoy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rose</foaf:surname>
+                        <foaf:givenName>Carolyn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Violet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_59"/>
+        <link:link rdf:resource="#item_44"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Important</dc:subject>
+        <dc:title>Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque</dc:title>
+        <dcterms:abstract>Instructing language models with user intent requires large instruction datasets, which are only available for a limited set of languages. In this paper, we explore alternatives to conventional instruction adaptation pipelines in low-resource scenarios. We assume a realistic scenario for low-resource languages, where only the following are available: corpora in the target language, existing open-weight multilingual base and instructed backbone LLMs, and synthetically generated instructions sampled from the instructed backbone. We present a comprehensive set of experiments for Basque that systematically study different combinations of these components evaluated on benchmarks and human preferences from 1,680 participants. Our conclusions show that target language corpora are essential, with synthetic instructions yielding robust models, and, most importantly, that using as backbone an instruction-tuned model outperforms using a base non-instructed model. Scaling up to Llama 3.1 Instruct 70B as backbone, our model comes near frontier models of much larger sizes for Basque, without using any Basque instructions. We release code, models, instruction datasets, and human preferences to support full reproducibility in future research on low-resource language adaptation.</dcterms:abstract>
+        <dc:date>2025-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1484/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:53</dcterms:dateSubmitted>
+        <z:shortTitle>Instructing Large Language Models for Low-Resource Languages</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>29136–29160</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>EMNLP 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_59">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;The paper is useful because it empirically validates your core architecture: take a high-resource instruction-tuned model (German rather than English), mix authentic monolingual dialect text with synthetic bilingual task data, and fine-tune both simultaneously rather than in separate pretraining and instruction stages. It confirms that exposure to raw target-language text is essential and that bilingual instruction mixes produce the most robust results—giving you license to treat your scraped Saxon corpus as the indispensable anchor and your back-translated parallel pairs as the task bridge. It also supports your lack of native speakers by showing that automatic benchmarks correlate strongly (ρ &amp;gt; 0.80) with human judgments, and it provides a ready template for bootstrapping synthetic instruction data from the model itself. The caveat is that Basque benefits from standardized orthography and substantially more raw text, so while the training recipe transfers directly, your orthographic chaos and extreme scarcity remain harder constraints that the paper does not solve.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/44/Sainz et al. - 2025 - Instructing Large Language Models for Low-Resource Languages A Systematic Study for Basque.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1484.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-89176-335-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.findings-emnlp.1355</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-335-7</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: EMNLP 2025</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Suzhou, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarasua</foaf:surname>
+                        <foaf:givenName>Ixak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corral</foaf:surname>
+                        <foaf:givenName>Ander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saralegi</foaf:surname>
+                        <foaf:givenName>Xabier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christodoulopoulos</foaf:surname>
+                        <foaf:givenName>Christos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chakraborty</foaf:surname>
+                        <foaf:givenName>Tanmoy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rose</foaf:surname>
+                        <foaf:givenName>Carolyn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Violet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_60"/>
+        <link:link rdf:resource="#item_46"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>DIPLomA: Efficient Adaptation of Instructed LLMs to Low-Resource Languages via Post-Training Delta Merging</dc:title>
+        <dcterms:abstract>This paper investigates how open-weight instruction-tuned large language models (LLMs) can be efficiently adapted to low-resource languages without requiring costly large-scale post-training. We introduce DIPLomA (Decoupled Instruction-Preserving Language Adaptation), a lightweight delta-based transfer strategy that provides a practical and effective solution for this scenario. DIPLomA decouples language adaptation from post-training alignment by first continually pretraining a foundational LLM on a modest amount of monolingual target-language data while anchoring on English replay, and then injecting instruction-following capabilities via delta-based weight merging from the instructed counterpart of the base LLM. We evaluate DIPLomA on Basque and validate its generality on Welsh and Swahili, demonstrating consistent and substantial gains in instruction-following, linguistic proficiency, and safety. Compared to strong baselines, our method achieves average relative improvements of 50 points in Basque, 63 in Welsh, and 51 in Swahili, while preserving the original model's multilingual performance. These results highlight DIPLomA as an effective, resource-efficient strategy for bringing high-quality instruction alignment to underrepresented languages at scale.</dcterms:abstract>
+        <dc:date>2025-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.findings-emnlp.1355/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:55</dcterms:dateSubmitted>
+        <z:shortTitle>DIPLomA</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>24898–24912</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_60">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;This paper is useful as strong empirical validation for your planned two‑stage pipeline: it shows that continual pre‑training on monolingual low‑resource data before any task‑specific transfer genuinely builds target‑language fluency, and it confirms that LLM‑as‑a‑judge can reliably substitute for human evaluation—directly supporting your no‑native‑speaker constraint. Its mixed pre‑training strategy also implies you should blend your Saxon corpus with Standard German to preserve high‑resource competence. However, the paper does not address your current dataset‑creation bottleneck, offers no guidance on handling extreme orthographic variation or constructing filtered parallel data, and proposes delta merging rather than the LoRA versus ICL comparison you intend. Use it as evidence that hoarding monolingual Saxon text is worthwhile, but not as a guide for corpus building.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/46/Sarasua et al. - 2025 - DIPLomA Efficient Adaptation of Instructed LLMs to Low-Resource Languages via Post-Training Delta M.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.findings-emnlp.1355.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-89176-189-6">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.naacl-long.489</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-189-6</dc:identifier>
+                <dc:title>Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Albuquerque, New Mexico</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maheshwary</foaf:surname>
+                        <foaf:givenName>Rishabh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yadav</foaf:surname>
+                        <foaf:givenName>Vikas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Hoang H</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mahajan</foaf:surname>
+                        <foaf:givenName>Khyati</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Madhusudhan</foaf:surname>
+                        <foaf:givenName>Sathwik Tejaswi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chiruzzo</foaf:surname>
+                        <foaf:givenName>Luis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ritter</foaf:surname>
+                        <foaf:givenName>Alan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Lu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_61"/>
+        <link:link rdf:resource="#item_48"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>M2Lingual: Enhancing Multilingual, Multi-Turn Instruction Alignment in Large Language Models</dc:title>
+        <dcterms:abstract>Collecting instruction fine-tuning (IFT) data is a resource and time intensive task especially in multilingual setting where finding proficient native speakers is challenging. Moreover, traditional data collection is prone to privacy risks, toxicity and lacks scalability. While, fully synthetic datasets are a promising alternative, research on their use in multilingual domain is limited as existing approaches still rely on machine translation to improve multilingual performance. To bridge this gap we introduce M2Lingual, the first fully synthetic, multi-turn multilingual dataset having 175K conversations across 70 languages with a balanced mix of high, low and mid-resourced languages. M2Lingual is constructed using a cost-efficient and scalable method that uses our novel two-step Evol prompt taxonomy to transform a small set of human written instructions to complex and challenging conversations. Results across three model families, six baseline datasets and evaluation spanning 31 languages demonstrates the effectiveness of M2Lingual over other datasets.</dcterms:abstract>
+        <dc:date>2025-04</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.naacl-long.489/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:53:58</dcterms:dateSubmitted>
+        <z:shortTitle>M2Lingual</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>9676–9713</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>NAACL-HLT 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_61">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;This paper is only tangentially useful. Its core contribution—a fully synthetic, seed-driven augmentation pipeline—offers a viable template for scaling scarce authentic Saxon text without native-speaker annotators, and its multi-turn chat format supports your ICL requirements. However, M2Lingual targets multilingual instruction-following, not bidirectional dialect–standard translation, and relies on thousands of existing high-quality native-speaker seeds that you do not have. The most transferable insight is treating authentic data as sacred seeds and applying targeted synthetic mutation, though you will need to heavily adapt the Evol taxonomy for orthographic variation and back-translation rather than instruction evolution.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/48/Maheshwary et al. - 2025 - M2Lingual Enhancing Multilingual, Multi-Turn Instruction Alignment in Large Language Models.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.naacl-long.489.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2024.findings-emnlp.818/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2024.findings-emnlp.818</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: EMNLP 2024</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Miami, Florida, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yong</foaf:surname>
+                        <foaf:givenName>Zheng Xin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Menghini</foaf:surname>
+                        <foaf:givenName>Cristina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bach</foaf:surname>
+                        <foaf:givenName>Stephen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Onaizan</foaf:surname>
+                        <foaf:givenName>Yaser</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bansal</foaf:surname>
+                        <foaf:givenName>Mohit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Yun-Nung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_62"/>
+        <link:link rdf:resource="#item_50"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons</dc:title>
+        <dcterms:abstract>Data scarcity in low-resource languages can be addressed with word-to-word translations from labeled task data in high-resource languages using bilingual lexicons. However, bilingual lexicons often have limited lexical overlap with task data, which results in poor translation coverage and lexicon utilization. We propose lexicon-conditioned data generation LexC-Gen, a method that generates low-resource-language classification task data at scale. Specifically, LexC-Gen first uses high-resource-language words from bilingual lexicons to generate lexicon-compatible task data, and then it translates them into low-resource languages with bilingual lexicons via word translation. Across 17 extremely low-resource languages, LexC-Gen generated data is competitive with expert-translated gold data, and yields on average 5.6 and 8.9 points improvement over existing lexicon-based word translation methods on sentiment analysis and topic classification tasks respectively. Through ablation study, we show that conditioning on bilingual lexicons is the key component of LexC-Gen. LexC-Gen serves as a potential solution to close the performance gap between open-source multilingual models, such as BLOOMZ and Aya-101, and state-of-the-art commercial models like GPT-4o on low-resource-language tasks.</dcterms:abstract>
+        <dc:date>2024-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-emnlp.818/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:01</dcterms:dateSubmitted>
+        <z:shortTitle>LexC-Gen</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>13990–14009</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2024</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_62">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;The paper is &lt;strong&gt;marginally useful but largely mismatched&lt;/strong&gt; to your project. LexC-Gen targets &lt;em&gt;classification&lt;/em&gt; tasks (sentiment, topics) via word-to-word lexicon substitution, whereas you need &lt;em&gt;parallel text generation&lt;/em&gt; for bidirectional dialect translation. Its word-level substitution approach assumes a fixed lexicon and preserves source-language syntax—both fatal for your goal, given Saxon’s severe orthographic variation and lack of standard spelling. Where it does help is in validating that &lt;strong&gt;LLM-generated synthetic data combined with aggressive automatic filtering&lt;/strong&gt; can approximate gold-quality corpora in extremely low-resource settings without native speakers, which loosely supports your back-translation and filtering pipeline. You should not adopt its core word-to-word method, but you can cite its evidence that quality control outperforms blind scaling when constructing synthetic parallel data.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/50/Yong et al. - 2024 - LexC-Gen Generating Data for Extremely Low-Resource Languages with Large Language Models and Biling.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-emnlp.818.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-89176-386-9">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2026.findings-eacl.148</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-386-9</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: EACL 2026</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rabat, Morocco</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pecher</foaf:surname>
+                        <foaf:givenName>Branislav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cegin</foaf:surname>
+                        <foaf:givenName>Jan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Belanec</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Srba</foaf:surname>
+                        <foaf:givenName>Ivan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simko</foaf:surname>
+                        <foaf:givenName>Jakub</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bielikova</foaf:surname>
+                        <foaf:givenName>Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Demberg</foaf:surname>
+                        <foaf:givenName>Vera</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Inui</foaf:surname>
+                        <foaf:givenName>Kentaro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marquez</foaf:surname>
+                        <foaf:givenName>Lluís</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_63"/>
+        <link:link rdf:resource="#item_52"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>Better as Generators Than Classifiers: Leveraging LLMs and Synthetic Data for Low-Resource Multilingual Classification</dc:title>
+        <dcterms:abstract>Large Language Models (LLMs) have demonstrated remarkable multilingual capabilities, making them promising tools in both high- and low-resource languages. One particularly valuable use case is generating synthetic samples that can be used to train smaller models in low-resource scenarios where human-labelled data is scarce. In this work, we investigate whether these synthetic data generation capabilities can serve as a form of distillation, producing smaller models that perform on par with or even better than massive LLMs across languages and tasks. To this end, we use a state-of-the-art multilingual LLM to generate synthetic datasets covering 11 languages and 4 classification tasks. These datasets are then used to train smaller models via fine-tuning or instruction tuning, or as synthetic in-context examples for compact LLMs. Our experiments show that even small amounts of synthetic data enable smaller models to outperform the large generator itself, particularly in low-resource languages. Overall, the results suggest that LLMs are best utilised as generators (teachers) rather than classifiers, producing data that empowers smaller and more efficient multilingual models.</dcterms:abstract>
+        <dc:date>2026-03</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2026.findings-eacl.148/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:04</dcterms:dateSubmitted>
+        <z:shortTitle>Better as Generators Than Classifiers</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>2840–2857</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2026</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_63">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;This paper is&lt;strong&gt; useful&lt;/strong&gt; for validating both your synthetic data strategy and your planned distillation architecture. It provides empirical evidence that synthetic LLM-generated data is most beneficial—and competitive with human data—in extremely low-resource settings under ~100 samples, while also demonstrating that smaller models fine-tuned on this synthetic data can &lt;strong&gt;surpass the large generator itself&lt;/strong&gt;, supporting your approach of using a strong LLM for back-translation while deploying a compact specialist model. Its systematic comparison of fine-tuning (including LoRA) versus in-context learning, alongside its warnings about diversity stagnation and hyperparameter sensitivity, directly informs your filtering pipeline and training decisions. The main caveat is that it studies &lt;strong&gt;classification&lt;/strong&gt; rather than translation, so the exact performance trajectories must be adapted to your variable-orthography, seq2seq dialect setting.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/52/Pecher et al. - 2026 - Better as Generators Than Classifiers Leveraging LLMs and Synthetic Data for Low-Resource Multiling.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2026.findings-eacl.148.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:06</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2024.findings-naacl.190/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2024.findings-naacl.190</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: NAACL 2024</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Mexico City, Mexico</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouthors</foaf:surname>
+                        <foaf:givenName>Maxime</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crego</foaf:surname>
+                        <foaf:givenName>Josep</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yvon</foaf:surname>
+                        <foaf:givenName>François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duh</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gomez</foaf:surname>
+                        <foaf:givenName>Helena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bethard</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_54"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Retrieving Examples from Memory for Retrieval Augmented Neural Machine Translation: A Systematic Comparison</dc:title>
+        <dcterms:abstract>Retrieval-Augmented Neural Machine Translation (RAMT) architectures retrieve examples from memory to guide the generation process. While most works in this trend explore new ways to exploit the retrieved examples, the upstream retrieval step is mostly unexplored. In this paper, we study the effect of varying retrieval methods for several translation architectures to better understand the interplay between these two processes.We conduct experiments in two language pairs in a multi-domain setting and consider several downstream architectures based on a standard autoregressive model, an edit-based model, and a large language model with in-context learning. Our experiments show that the choice of the retrieval technique impacts the translation scores, with variance across architectures. We also discuss the effects of increasing the number and diversity of examples, which are mostly positive across the board.</dcterms:abstract>
+        <dc:date>2024-06</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-naacl.190/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:19</dcterms:dateSubmitted>
+        <z:shortTitle>Retrieving Examples from Memory for Retrieval Augmented Neural Machine Translation</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>3022–3039</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2024</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/54/Bouthors et al. - 2024 - Retrieving Examples from Memory for Retrieval Augmented Neural Machine Translation A Systematic Com.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-naacl.190.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-15 11:54:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.emnlp-main.1502/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.emnlp-main.1502</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-332-6</dc:identifier>
+                <dc:title>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Suzhou, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yue</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Zhixue</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scarton</foaf:surname>
+                        <foaf:givenName>Carolina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christodoulopoulos</foaf:surname>
+                        <foaf:givenName>Christos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chakraborty</foaf:surname>
+                        <foaf:givenName>Tanmoy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rose</foaf:surname>
+                        <foaf:givenName>Carolyn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Violet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_66"/>
+        <link:link rdf:resource="#item_65"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>It's All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs</dc:title>
+        <dcterms:abstract>Extremely low-resource languages, especially those written in rare scripts, remain largely unsupported by large language models (LLMs). This is due in part to compounding factors such as the lack of training data. This paper delivers the first comprehensive analysis of whether LLMs can acquire such languages purely via in-context learning (ICL), with or without auxiliary alignment signals, and how these methods compare to parameter-efficient fine-tuning (PEFT). We systematically evaluate 20 under-represented languages across three state-of-the-art multilingual LLMs. Our findings highlight the limitation of PEFT when both language and its script are extremely under-represented by the LLM. In contrast, zero-shot ICL with language alignment is impressively effective on extremely low-resource languages, while few-shot ICL or PEFT is more beneficial for languages relatively better represented by LLMs. For LLM practitioners working on extremely low-resource languages, we summarise guidelines grounded by our results on adapting LLMs to low-resource languages, e.g., avoiding fine-tuning a multilingual model on languages of unseen scripts.</dcterms:abstract>
+        <dc:date>2025-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1502/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:07:55</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>29544–29559</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>EMNLP 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_66">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;This paper is directly useful: it empirically validates your core strategy by showing that small-scale fine-tuning severely overfits and often loses to zero-shot ICL with sentence-level alignment when language data is extremely scarce, reinforcing why your high-quality parallel dataset is the critical bottleneck. For Saxon specifically—which uses a supported script but is dialectally marginal—you likely sit between the paper’s “extremely low-resource” and “moderately supported” categories, suggesting ICL with alignment and conservative QLoRA are both worth testing, exactly as you planned. The authors’ automatic, no-native-speaker setup and their emphasis on unlabeled parallel examples for zero-shot prompting further align with your constraints and data architecture, though their focus on classification rather than translation means you must still verify their findings on your bidirectional translation task.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_65">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/65/Li et al. - 2025 - It's All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.emnlp-main.1502.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:07:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.vardial-1.5/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 12th Workshop on NLP for Similar Languages, Varieties and Dialects</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Abu Dhabi, UAE</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alam</foaf:surname>
+                        <foaf:givenName>Md Mahfuz Ibn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anastasopoulos</foaf:surname>
+                        <foaf:givenName>Antonios</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scherrer</foaf:surname>
+                        <foaf:givenName>Yves</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jauhiainen</foaf:surname>
+                        <foaf:givenName>Tommi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ljubešić</foaf:surname>
+                        <foaf:givenName>Nikola</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nakov</foaf:surname>
+                        <foaf:givenName>Preslav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tiedemann</foaf:surname>
+                        <foaf:givenName>Jorg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zampieri</foaf:surname>
+                        <foaf:givenName>Marcos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dcterms:isReferencedBy rdf:resource="#item_69"/>
+        <link:link rdf:resource="#item_68"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Useful</dc:subject>
+        <dc:title>Large Language Models as a Normalizer for Transliteration and Dialectal Translation</dc:title>
+        <dcterms:abstract>NLP models trained on standardized language data often struggle with variations. We assess various Large Language Models (LLMs) for transliteration and dialectal normalization. Tuning open-source LLMs with as little as 10,000 parallel examples using LoRA can achieve results comparable to or better than closed-source LLMs. We perform dialectal normalization experiments for twelve South Asian languages and dialectal translation experiments for six language continua worldwide. The dialectal normalization task can also be a preliminary step for the downstream dialectal translation task. Among the six languages used in dialectal translation, our approach enables Italian and Swiss German to surpass the baseline model by 21.5 and 25.8 BLEU points, respectively.</dcterms:abstract>
+        <dc:date>2025-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/2025.vardial-1.5/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:40:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>39–67</bib:pages>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_69">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;This paper is highly relevant to your project because your core task — &lt;strong&gt;Saxon ↔ Standard German translation&lt;/strong&gt; — is functionally the same problem the paper calls &lt;strong&gt;dialect normalization&lt;/strong&gt;. The paper shows that dialect-to-standard transformation can be treated as a standard seq2seq/LLM translation task and that even highly non-standard dialects with inconsistent spelling can be modeled effectively using LoRA-tuned open-source LLMs with relatively small parallel datasets (~10k examples). The Swiss German results are especially important because Swiss German shares many structural properties with Saxon: strong regional variation, phonetic spelling, weak orthographic standardization, and closeness to Standard German.&lt;/p&gt;
+&lt;p&gt;The paper strongly supports several of your central design decisions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+using &lt;strong&gt;sentence-level parallel pairs&lt;/strong&gt;,
+&lt;/li&gt;
+&lt;li&gt;
+avoiding orthographic normalization,
+&lt;/li&gt;
+&lt;li&gt;
+relying on &lt;strong&gt;subword tokenization&lt;/strong&gt;,
+&lt;/li&gt;
+&lt;li&gt;
+prioritizing authentic dialect text,
+&lt;/li&gt;
+&lt;li&gt;
+and adapting German-centric models with LoRA instead of training from scratch.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Its most valuable contribution for your project is probably the analysis of spelling variation and “leakage.” The authors show that weaker models often memorize dialect spellings rather than learning robust dialect mappings, which directly validates your concern about orthographic instability in Saxon. Their experiments suggest that strong LLMs generalize much better across spelling variants than smaller scratch-trained systems.&lt;/p&gt;
+&lt;p&gt;What the paper does &lt;em&gt;not&lt;/em&gt; solve is your hardest problem: large-scale automatic corpus construction and filtering under extreme data scarcity. It assumes the existence of parallel dialect-standard data, whereas your project is primarily about &lt;em&gt;creating&lt;/em&gt; that data. So the paper is more valuable as evidence that your planned modeling approach is viable than as a guide for your dataset mining pipeline.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_68">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/68/Alam and Anastasopoulos - 2025 - Large Language Models as a Normalizer for Transliteration and Dialectal Translation.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.vardial-1.5.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:40:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.findings-emnlp.762/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2025.findings-emnlp.762</dc:identifier>
+                <dc:identifier>ISBN 979-8-89176-335-7</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: EMNLP 2025</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Suzhou, China</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Litschko</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blaschke</foaf:surname>
+                        <foaf:givenName>Verena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burkhardt</foaf:surname>
+                        <foaf:givenName>Diana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plank</foaf:surname>
+                        <foaf:givenName>Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frassinelli</foaf:surname>
+                        <foaf:givenName>Diego</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Christodoulopoulos</foaf:surname>
+                        <foaf:givenName>Christos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chakraborty</foaf:surname>
+                        <foaf:givenName>Tanmoy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rose</foaf:surname>
+                        <foaf:givenName>Carolyn</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Violet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_73"/>
+        <dc:title>Make Every Letter Count: Building Dialect Variation Dictionaries from Monolingual Corpora</dc:title>
+        <dcterms:abstract>Dialects exhibit a substantial degree of variation due to the lack of a standard orthography. At the same time, the ability of Large Language Models (LLMs) to process dialects remains largely understudied. To address this gap, we use Bavarian as a case study and investigate the lexical dialect understanding capability of LLMs by examining how well they recognize and translate dialectal terms across different parts-of-speech. To this end, we introduce DiaLemma, a novel annotation framework for creating dialect variation dictionaries from monolingual data only, and use it to compile a ground truth dataset consisting of 100K human-annotated German-Bavarian word pairs. We evaluate how well nine state-of-the-art LLMs can judge Bavarian terms as dialect translations, inflected variants, or unrelated forms of a given German lemma. Our results show that LLMs perform best on nouns and lexically similar word pairs, and struggle most in distinguishing between direct translations and inflected variants. Interestingly, providing additional context in the form of example usages improves the translation performance, but reduces their ability to recognize dialect variants. This study highlights the limitations of LLMs in dealing with orthographic dialect variation and emphasizes the need for future work on adapting LLMs to dialects.</dcterms:abstract>
+        <dc:date>2025-11</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.findings-emnlp.762/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:57:16</dcterms:dateSubmitted>
+        <z:shortTitle>Make Every Letter Count</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>14157–14174</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_73">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/73/Litschko et al. - 2025 - Make Every Letter Count Building Dialect Variation Dictionaries from Monolingual Corpora.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.findings-emnlp.762.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:57:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2025.coling-main.678/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 31st International Conference on Computational Linguistics</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Abu Dhabi, UAE</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Litschko</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kraus</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blaschke</foaf:surname>
+                        <foaf:givenName>Verena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plank</foaf:surname>
+                        <foaf:givenName>Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rambow</foaf:surname>
+                        <foaf:givenName>Owen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wanner</foaf:surname>
+                        <foaf:givenName>Leo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Apidianaki</foaf:surname>
+                        <foaf:givenName>Marianna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Khalifa</foaf:surname>
+                        <foaf:givenName>Hend</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eugenio</foaf:surname>
+                        <foaf:givenName>Barbara Di</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schockaert</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_75"/>
+        <dc:title>Cross-Dialect Information Retrieval: Information Access in Low-Resource and High-Variance Languages</dc:title>
+        <dcterms:abstract>A large amount of local and culture-specific knowledge (e.g., people, traditions, food) can only be found in documents written in dialects. While there has been extensive research conducted on cross-lingual information retrieval (CLIR), the field of cross-dialect retrieval (CDIR) has received limited attention. Dialect retrieval poses unique challenges due to the limited availability of resources to train retrieval models and the high variability in non-standardized languages. We study these challenges on the example of German dialects and introduce the first German dialect retrieval dataset, dubbed WikiDIR, which consists of seven German dialects extracted from Wikipedia. Using WikiDIR, we demonstrate the weakness of lexical methods in dealing with high lexical variation in dialects. We further show that commonly used CLIR methods such as query translation or zero-shot cross-lingual transfer with multilingual encoders do not transfer well to extremely low-resource setups, motivating the need for resource-lean and dialect-specific retrieval models.</dcterms:abstract>
+        <dc:date>2025-01</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.coling-main.678/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:58:52</dcterms:dateSubmitted>
+        <z:shortTitle>Cross-Dialect Information Retrieval</z:shortTitle>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>10158–10171</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>COLING 2025</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_75">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/75/Litschko et al. - 2025 - Cross-Dialect Information Retrieval Information Access in Low-Resource and High-Variance Languages.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2025.coling-main.678.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:58:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/W13-5303/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the Workshop on Adaptation of Language Resources and Tools for Closely Related Languages and Language Variants</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>INCOMA Ltd. Shoumen, BULGARIA</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Hissar, Bulgaria</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haddow</foaf:surname>
+                        <foaf:givenName>Barry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hernández</foaf:surname>
+                        <foaf:givenName>Adolfo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neubarth</foaf:surname>
+                        <foaf:givenName>Friedrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trost</foaf:surname>
+                        <foaf:givenName>Harald</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vertan</foaf:surname>
+                        <foaf:givenName>Cristina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Slavcheva</foaf:surname>
+                        <foaf:givenName>Milena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osenova</foaf:surname>
+                        <foaf:givenName>Petya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_77"/>
+        <dc:title>Corpus development for machine translation between standard and dialectal varieties</dc:title>
+        <dc:date>2013-09</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/W13-5303/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:59:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>7–14</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/77/Haddow et al. - 2013 - Corpus development for machine translation between standard and dialectal varieties.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://aclanthology.org/W13-5303.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 16:59:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_78">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Artemova</foaf:surname>
+                        <foaf:givenName>Ekaterina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plank</foaf:surname>
+                        <foaf:givenName>Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_79"/>
+        <dc:subject>Read</dc:subject>
+        <dc:subject>Important</dc:subject>
+        <dc:title>Low-resource Bilingual Dialect Lexicon Induction with Large Language Models</dc:title>
+        <dcterms:abstract>Bilingual word lexicons are crucial tools for multilingual natural language understanding and machine translation tasks, as they facilitate the mapping of words in one language to their synonyms in another language. To achieve this, numerous papers have explored bilingual lexicon induction (BLI) in high-resource scenarios, using a typical pipeline consisting of two unsupervised steps: bitext mining and word alignment, both of which rely on pre-trained large language models~(LLMs). In this paper, we present an analysis of the BLI pipeline for German and two of its dialects, Bavarian and Alemannic. This setup poses several unique challenges, including the scarcity of resources, the relatedness of the languages, and the lack of standardization in the orthography of dialects. To evaluate the BLI outputs, we analyze them with respect to word frequency and pairwise edit distance. Additionally, we release two evaluation datasets comprising 1,500 bilingual sentence pairs and 1,000 bilingual word pairs. They were manually judged for their semantic similarity for each Bavarian-German and Alemannic-German language pair.</dcterms:abstract>
+        <dc:date>2023</dc:date>
+        <z:language>en</z:language>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_79">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/79/Artemova and Plank - 2023 - Low-resource Bilingual Dialect Lexicon Induction with Large Language Models.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2304.09957</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 17:04:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ojs.aaai.org/index.php/AAAI/article/view/40247">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2374-3468"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ta</foaf:surname>
+                        <foaf:givenName>Khoa Anh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dinh</foaf:surname>
+                        <foaf:givenName>Nguyen Van</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>Kiet Van</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_81"/>
+        <dc:title>ViDia2Std: A Parallel Corpus and Methods for Low-Resource Vietnamese Dialect-to-Standard Translation</dc:title>
+        <dcterms:abstract>Vietnamese exhibits extensive dialectal variation, posing challenges for NLP systems trained predominantly on standard Vietnamese. Such systems often underperform on dialectal inputs, especially from underrepresented Central and Southern regions. Previous work on dialect normalization has focused narrowly on Central-to-Northern dialect transfer using synthetic data and limited dialectal diversity. These efforts exclude Southern varieties and intra-regional variants within the North. We introduce ViDia2Std, the first manually annotated parallel corpus for dialect-to-standard Vietnamese translation covering all 63 provinces. Unlike prior datasets, ViDia2Std includes diverse dialects from Central, Southern, and non-standard Northern regions often absent from existing resources, making it the most dialectally inclusive corpus to date. The dataset consists of over 13,000 sentence pairs sourced from real-world Facebook comments and annotated by native speakers across all three dialect regions. To assess annotation consistency, we define a semantic mapping agreement metric that accounts for synonymous standard mappings across annotators. Based on this criterion, we report agreement rates of 86% (North), 82% (Central), and 85% (South). We benchmark several sequence-to-sequence models on ViDia2Std. mBART-large-50 achieves the best results (BLEU 0.8166, ROUGE-L 0.9384, METEOR 0.8925), while ViT5-base offers competitive performance with fewer parameters. ViDia2Std demonstrates that dialect normalization substantially improves downstream tasks, highlighting the need for dialect-aware resources in building robust Vietnamese NLP systems.</dcterms:abstract>
+        <dc:date>2026-03-14</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.aaai.org/index.php/AAAI/article/view/40247</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 17:31:02</dcterms:dateSubmitted>
+        <z:shortTitle>ViDia2Std</z:shortTitle>
+        <z:language>en</z:language>
+        <z:libraryCatalog>ojs.aaai.org</z:libraryCatalog>
+        <dc:rights>Copyright (c) 2026 Association for the Advancement of Artificial Intelligence</dc:rights>
+        <bib:pages>29995-30004</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2374-3468">
+        <dc:identifier>DOI 10.1609/aaai.v40i36.40247</dc:identifier>
+        <prism:volume>40</prism:volume>
+        <dc:title>Proceedings of the AAAI Conference on Artificial Intelligence</dc:title>
+        <dc:identifier>ISSN 2374-3468</dc:identifier>
+        <prism:number>36</prism:number>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_81">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/81/Ta et al. - 2026 - ViDia2Std A Parallel Corpus and Methods for Low-Resource Vietnamese Dialect-to-Standard Translation.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.aaai.org/index.php/AAAI/article/download/40247/44208</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-18 17:31:06</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.sachsenwelt.de/sachsen/mundart/woerterbuch-a.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_111"/>
+        <link:link rdf:resource="#item_92"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Sachsen Welt - Sächsisches Wörterbuch und Dialekt</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsenwelt.de/sachsen/mundart/woerterbuch-a.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-02 14:24:32</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_111">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Trabbi-Handbuch schon geadded&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_92">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/92/woerterbuch-a.html"/>
+        <dc:title>Sachsen Welt - Sächsisches Wörterbuch und Dialekt</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsenwelt.de/sachsen/mundart/woerterbuch-a.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-02 14:24:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.langenscheidt.com/shop/deutsch/humor-und-unterhaltung/dialekte/langenscheidt-so-geht-mundart-saechsisch-978-3-12-614011-9">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Langenscheidt Shop DE</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Langenscheidt So geht Mundart Sächsisch</dc:title>
+        <dcterms:abstract>Sächseln ist sächsy! Menschen aus Sachsen sind warmherzig und kommunikativ. Mit ihnen ins Gespräch zu kommen ist gor gein Broblähm, sie zu verstehen...</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.langenscheidt.com/shop/deutsch/humor-und-unterhaltung/dialekte/langenscheidt-so-geht-mundart-saechsisch-978-3-12-614011-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-02 14:13:28</dcterms:dateSubmitted>
+        <z:language>de-DE</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="https://web.archive.org/web/20240808042125/https://incubator.wikimedia.org/wiki/Wp/sxu/Main_Page">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Saxon Wikipedia</dc:title>
+        <dc:date>2024-08-08</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://web.archive.org/web/20240808042125/https://incubator.wikimedia.org/wiki/Wp/sxu/Main_Page</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-23 16:28:55</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.sachsen-lese.de/index.php?article_id=89">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Sachsen-Lese</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sachsen-Lese</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_94"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Mundartliches</dc:title>
+        <dcterms:abstract>Fünf Dialekte, die in Sachsen gesprochen werden, werden mit Sprachbeispielen vorgestellt</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsen-lese.de/index.php?article_id=89</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-29 10:33:05</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_94">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/94/index.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsen-lese.de/index.php?article_id=89</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-05-29 10:33:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://shop.duden.de/Saechsisch/9783411756841">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Duden Onlineshop</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_110"/>
+        <dc:title>Sächsisch</dc:title>
+        <dcterms:abstract>Sächsisch bequem online bestellen ✓ Kategorie: Wörterbücher &amp; Sprache ✓ Jetzt im Duden-Shop kaufen</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://shop.duden.de/Saechsisch/9783411756841</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 10:21:16</dcterms:dateSubmitted>
+        <z:language>de-DE</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_110">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/110/9783411756841.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://shop.duden.de/Saechsisch/9783411756841</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 10:21:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.dresden-lese.de/index.php?article_id=261">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Dresden-Lese</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walther</foaf:surname>
+                        <foaf:givenName>Alexander</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_113"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Wörter im Dresdner Dialekt</dc:title>
+        <dcterms:abstract>Entdecken touristische Geheimtipps und erfahren Sie mehr über die Landeshauptstadt Dresden.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dresden-lese.de/index.php?article_id=261</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 10:58:02</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_113">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/113/index.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dresden-lese.de/index.php?article_id=261</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 10:58:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id1883090938">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Günther</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Gottesgab</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:title>Erzgebirgische Mundart</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id1883090938</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 11:10:52</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id514875712">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Erzgebirgische Heimatkunde ; 19</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Hofmeister</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Henschel</foaf:surname>
+                        <foaf:givenName>Horst</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anthologie</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deutsch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Erzgebirge</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Literatur</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mitteldeutsch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mundart</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mundartliteratur</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Volkslied</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Volksliteratur</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Singendes Land 400 Mundartlieder aus dem Erzgebirge</dc:title>
+        <dcterms:abstract>Wahrnehmung der Rechte durch die VG WORT (§ 51 VGG)</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id514875712</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 11:24:34</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id1883091497">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1</prism:volume>
+                <dc:title>Erzgebirgische Mundart</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Günther</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Gottesgab</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Günther</foaf:surname>
+                        <foaf:givenName>Anton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Erzgebirgische Mundart H. 1 A baar Gedichtla von Tolerhans-Tonl / Ant. Günther</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id1883091497</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 11:41:46</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+        <dc:description>Edition: 2. Aufl.</dc:description>
+    </bib:Article>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id513789154">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Erzgebirgisches Vereinstheater ; 39</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Graser</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Annaberg i. Erzgeb.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Siegert</foaf:surname>
+                        <foaf:givenName>Hans</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Wieder derham! Volksstück in erzgebirgischer Mundart in einem Aufzug</dc:title>
+        <dcterms:abstract>Wahrnehmung der Rechte durch die VG WORT (§ 51 VGG)</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id513789154</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 11:44:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id514846992">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Hofmeister</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Blechschmidt</foaf:surname>
+                        <foaf:givenName>Manfred</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barthel</foaf:surname>
+                        <foaf:givenName>Friedrich</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anthologie</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Literatur</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Erzgebirgisch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Vogtländisch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Stimmen der Heimat Dichtungen in erzgebirgischer und vogtländischer Mundart von den Anfängen bis zur Gegenwart</dc:title>
+        <dcterms:abstract>Wahrnehmung der Rechte durch die VG WORT (§ 51 VGG)</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id514846992</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-12 11:47:56</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+        <dc:description>Edition: 2., durchges. Aufl.</dc:description>
+    </bib:Article>
+    <bib:Document rdf:about="https://www.instagram.com/simplysaxony/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_122"/>
+        <link:link rdf:resource="#item_121"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>@simplysaxony Instagram Account</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.instagram.com/simplysaxony/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-14 10:22:48</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_122">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Mundart Monday&lt;/p&gt;
+&lt;p&gt;bis &lt;a href=&quot;https://www.instagram.com/p/DYfJ0DNNz-w/&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;https://www.instagram.com/p/DYfJ0DNNz-w/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_121">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/121/simplysaxony.html"/>
+        <dc:title>Instagram</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.instagram.com/simplysaxony/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-14 10:22:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id402326792">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1</prism:volume>
+                <dc:title>De Säck'sche Schweiz</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Jacobson</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mundart</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Sächsische Schweiz Motiv</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>De Säck'sche Schweiz 1</dc:title>
+        <dc:date>2014</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id402326792</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-18 11:01:17</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Article rdf:about="/id/0-631497331">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Wittig &amp; Schobloch</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Dresden-Wachwitz</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Erzgebirgisch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Monografische Reihe</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Gedichte und Geschichten in erzgebirgischer Mundart</dc:title>
+        <dcterms:abstract>Mehr nicht digitalisiert</dcterms:abstract>
+        <dc:date>1896</dc:date>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>/id/0-631497331</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-18 11:11:46</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Document rdf:about="https://sachsen-online.net/news-details/der-saechsische-dialekt.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_136"/>
+        <dc:title>Sächsischer Dialekt » Wörterbuch Deutsch - Sächsisch - SN</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sachsen-online.net/news-details/der-saechsische-dialekt.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:07:49</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_136">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/136/der-saechsische-dialekt.html"/>
+        <dc:title>Sächsischer Dialekt » Wörterbuch Deutsch - Sächsisch - SN</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sachsen-online.net/news-details/der-saechsische-dialekt.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:07:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://mundwerk.sichtbar-online.com/dialekt/saechsisch">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Mundwerk - Deutschlands Dialekte</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Sächsischer Dialekt | Wörter, Bedeutung &amp; Fakten | Mundwerk</dc:title>
+        <dcterms:abstract>Informationen zum Dialekt Sächsisch</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://mundwerk.sichtbar-online.com/dialekt/saechsisch</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:12:05</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="http://www.teens-web.de/sachsen.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_139"/>
+        <dc:title>Sächsisch-Wörterbuch</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.teens-web.de/sachsen.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:13:24</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_139">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/139/sachsen.html"/>
+        <dc:title>Sächsisch-Wörterbuch</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.teens-web.de/sachsen.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:13:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://www.dw.com/downloads/25835496/alltagsdeutsch-s">
+        <z:itemType>document</z:itemType>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Alltagsdeutsch Sächsisch - DW</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dw.com/downloads/25835496/alltagsdeutsch-s</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Document rdf:about="https://www.superprof.de/blog/die-verschiedenen-saechsischen-dialekte/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+            <z:Blog>
+                <dc:title>Superprof - Blog für Lehrer, Schüler &amp; Eltern</dc:title>
+            </z:Blog>
+        </dcterms:isPartOf>
+        <dc:title>Sächsisch: Dialekte &amp; Mundarten im Überblick</dc:title>
+        <dcterms:abstract>Entdecke die sächsischen Dialekte: Herkunft, Besonderheiten, typische Wörter und kulturelle Bedeutung des Sächsischen auf einen Blick.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.superprof.de/blog/die-verschiedenen-saechsischen-dialekte/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:24:06</dcterms:dateSubmitted>
+        <z:shortTitle>Sächsisch</z:shortTitle>
+        <z:language>de-DE</z:language>
+        <dc:description>Section: Deutsch als Fremdsprache</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://de.pons.com/p/wissensecke/wortschatz-to-go/saechsische-woerter">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_145"/>
+        <dc:title>Sächsische Wörter – die Top 10 für Einsteiger | PONS</dc:title>
+        <dcterms:abstract>Diese sächsischen Wörter müsst ihr kennen! Unsere Top 10 ist für Einheimische und Neulinge Pflichtlektüre!</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://de.pons.com/p/wissensecke/wortschatz-to-go/saechsische-woerter</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:24:33</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_145">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/145/saechsische-woerter.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://de.pons.com/p/wissensecke/wortschatz-to-go/saechsische-woerter</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:24:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://dresden.sehenswuerdigkeiten-online.de/infos/sprachfuehrer.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_147"/>
+        <dc:title>Sprachführer Sächsisch - wichtige Vokabeln</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dresden.sehenswuerdigkeiten-online.de/infos/sprachfuehrer.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:25:52</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_147">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/147/sprachfuehrer.html"/>
+        <dc:title>Sprachführer Sächsisch - wichtige Vokabeln</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dresden.sehenswuerdigkeiten-online.de/infos/sprachfuehrer.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:25:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.sprachschule-aktiv-leipzig.de/die-zehn-wichtigsten-woerter-aus-dem-saechsischen/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>whyaweb.es</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>leipzig</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Dei 10 wichtigsten sächsischen Begriffe für Deutschlernende</dc:title>
+        <dcterms:abstract>In diesem Blogbeitrag lernen unsere Leipziger Deutschschüler die wichtigsten 10 Wörter aus dem Sächsischen. Viel Spaß damit!</dcterms:abstract>
+        <dc:date>2023-07-24T10:40:19+00:00</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sprachschule-aktiv-leipzig.de/die-zehn-wichtigsten-woerter-aus-dem-saechsischen/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 09:42:08</dcterms:dateSubmitted>
+        <z:language>de-DE</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.facebook.com/mundartsachsen/?locale=de_DE">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>MundartSachsen Facebook</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.facebook.com/mundartsachsen/?locale=de_DE</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 10:07:51</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://dsa.info/sachsen">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Dialekte in Sachsen</dc:title>
+        <dcterms:abstract>Welche Dialekte werden in Sachsen gesprochen und wie klingen die Dialekte in Sachsen.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dsa.info/sachsen</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 10:17:21</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <bib:Document rdf:about="https://sgladschdglei.net/lustiges/#Text">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Thomas Haake</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haake</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Lustige Texte &amp; Videos auf sächsisch | Sgladschdglei.net | Die Internetseite für Sachsen über Sachsen</dc:title>
+        <dcterms:abstract>Lustige Texte &amp; Videos auf sächsisch - Sgladschdglei.net - Die Internetseite für Sachsen über Sachsen.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sgladschdglei.net/lustiges/#Text</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-06-25 10:54:52</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+        <dc:rights>Thomas Haake</dc:rights>
+    </bib:Document>
+    <bib:Article rdf:about="https://digital.slub-dresden.de/id513639071">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Sächsischer Mundart Buecher</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Bergmann</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leipzig</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Voigt</foaf:surname>
+                        <foaf:givenName>Lene</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Deutsch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mitteldeutsch</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mundartliteratur</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Leibzcher Lindenblieten</dc:title>
+        <dcterms:abstract>Wahrnehmung der Rechte durch die VG WORT (§ 51 VGG)</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://digital.slub-dresden.de/id513639071</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-20 16:00:31</dcterms:dateSubmitted>
+        <z:libraryCatalog>SLUB Dresden</z:libraryCatalog>
+    </bib:Article>
+    <bib:Document rdf:about="https://www.sachsen-lese.de/index.php?article_id=123">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Sachsen-Lese</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sachsen-Lese</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_158"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Lieder von Anton Günther</dc:title>
+        <dcterms:abstract>Er war ein Mundartdichter und Sänger, der in Gottesgab (Böhmen) geboren wurde und dort auch starb. Er gilt als der Erfinder der Liedpostkarte, einer Karte, die einfache Notenbilder, Texte und eigene Lithografien zeigt.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsen-lese.de/index.php?article_id=123</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-20 18:40:44</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_158">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/158/index.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sachsen-lese.de/index.php?article_id=123</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-20 18:40:49</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://sgladschdglei.net/woerterbuch/#Vornamen">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Thomas Haake</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haake</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_161"/>
+        <dc:subject>Read</dc:subject>
+        <dc:title>Wörterbuch &amp; Vornamen sächsisch - deutsch | Sgladschdglei.net | Die Internetseite für Sachsen über Sachsen</dc:title>
+        <dcterms:abstract>Wörterbuch &amp; Vornamen sächsisch - deutsch - Sgladschdglei.net - Die Internetseite für Sachsen über Sachsen</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sgladschdglei.net/woerterbuch/#Vornamen</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-27 14:20:18</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+        <dc:rights>Thomas Haake</dc:rights>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_161">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/161/woerterbuch.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sgladschdglei.net/woerterbuch/#Vornamen</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-27 14:20:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://aclanthology.org/2024.findings-naacl.263/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/2024.findings-naacl.263</dc:identifier>
+                <dc:title>Findings of the Association for Computational Linguistics: NAACL 2024</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Mexico City, Mexico</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Su</foaf:surname>
+                        <foaf:givenName>Tong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Xin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thillainathan</foaf:surname>
+                        <foaf:givenName>Sarubi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guzmán</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ranathunga</foaf:surname>
+                        <foaf:givenName>Surangika</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>En-Shiun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Duh</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gomez</foaf:surname>
+                        <foaf:givenName>Helena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bethard</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_167"/>
+        <dc:title>Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation</dc:title>
+        <dcterms:abstract>Parameter-efficient fine-tuning (PEFT) methods are increasingly vital in adapting large-scale pre-trained language models for diverse tasks, offering a balance between adaptability and computational efficiency. They are important in Low-Resource Language (LRL) Neural Machine Translation (NMT) to enhance translation accuracy with minimal resources. However, their practical effectiveness varies significantly across different languages. We conducted comprehensive empirical experiments with varying LRL domains and sizes to evaluate the performance of 8 PEFT methods with in total of 15 architectures using the SacreBLEU score. We showed that 6 PEFT architectures outperform the baseline for both in-domain and out-domain tests and the Houlsby+Inversion adapter has the best performance overall, proving the effectiveness of PEFT methods.</dcterms:abstract>
+        <dc:date>2024-06</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-naacl.263/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 13:51:48</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACLWeb</z:libraryCatalog>
+        <bib:pages>4217–4225</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Findings 2024</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_167">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/167/Su et al. - 2024 - Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://aclanthology.org/2024.findings-naacl.263.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 13:51:51</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://dsa.info/sachsen/uebersicht">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Forschungszentrum Deutscher Sprachatlas</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <link:link rdf:resource="#item_169"/>
+        <dc:title>Dialekte in Sachsen</dc:title>
+        <dcterms:abstract>Welche Dialekte werden in Sachsen gesprochen und wie klingen die Dialekte in Sachsen.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dsa.info/sachsen/uebersicht</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 11:01:47</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_169">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/169/sachsen.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dsa.info/sachsen</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 11:01:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.so-geht-saechsisch.de/dialekt/interview-mit-dr-evelyn-koch">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_170"/>
+        <dc:title>Interview mit Dr. Evelyn Koch - So geht sächsisch.</dc:title>
+        <dcterms:abstract>Rückgang des Dialektgebrauchs in Sachsen entspricht dem Deutschlandtrend.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.so-geht-saechsisch.de/dialekt/interview-mit-dr-evelyn-koch</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 09:44:28</dcterms:dateSubmitted>
+        <z:language>de</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_170">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/170/interview-mit-dr-evelyn-koch.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.so-geht-saechsisch.de/dialekt/interview-mit-dr-evelyn-koch</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-08-21 09:44:48</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/data.csv">
+        <z:itemType>dataset</z:itemType>
+        <dc:title>Dataset</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/data.csv</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Document rdf:about="https://tesseractocr.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Tesseract OCR</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Community</foaf:surname>
+                        <foaf:givenName>Tesseract OCR</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_173"/>
+        <dc:title>Tesseract OCR</dc:title>
+        <dcterms:abstract>Tesseract OCR is the leading free, open-source OCR engine. Extract text from images and PDFs with 99%+ accuracy across 100+ languages. 100% offline and secure.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://tesseractocr.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-21 15:08:45</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_173">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/173/tesseractocr.org.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://tesseractocr.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-21 15:08:50</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://kraken.re/main/index.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_175"/>
+        <dc:title>kraken</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://kraken.re/main/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-07-21 15:09:05</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_175">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/175/index.html"/>
+        <dc:title>kraken — kraken documentation</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://kraken.re/main/index.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-21 15:09:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/src/llm/prompts/extract_from_html.md">
+        <z:itemType>dataset</z:itemType>
+        <dc:title>Prompt</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/src/llm/prompts/extract_from_html.md</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Document rdf:about="https://www.slub-dresden.de/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dresden</foaf:surname>
+                        <foaf:givenName>SLUB</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_178"/>
+        <dc:title>SLUB Dresden</dc:title>
+        <dc:date>2026-08-21</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.slub-dresden.de/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <z:language>de-DE</z:language>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_178">
+        <z:itemType>attachment</z:itemType>
+        <z:path rdf:resource="files/178/www.slub-dresden.de.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.slub-dresden.de/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2026-09-21 16:06:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_4">
+        <dc:title>Data Sources</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_6"/>
+        <dcterms:hasPart rdf:resource="#collection_7"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_6">
+        <dc:title>Lexikon/Duden/Grammatik</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.sachsenwelt.de/sachsen/mundart/woerterbuch-a.html"/>
+        <dcterms:hasPart rdf:resource="https://www.langenscheidt.com/shop/deutsch/humor-und-unterhaltung/dialekte/langenscheidt-so-geht-mundart-saechsisch-978-3-12-614011-9"/>
+        <dcterms:hasPart rdf:resource="https://shop.duden.de/Saechsisch/9783411756841"/>
+        <dcterms:hasPart rdf:resource="https://www.dresden-lese.de/index.php?article_id=261"/>
+        <dcterms:hasPart rdf:resource="https://sachsen-online.net/news-details/der-saechsische-dialekt.html"/>
+        <dcterms:hasPart rdf:resource="https://mundwerk.sichtbar-online.com/dialekt/saechsisch"/>
+        <dcterms:hasPart rdf:resource="http://www.teens-web.de/sachsen.htm"/>
+        <dcterms:hasPart rdf:resource="https://www.superprof.de/blog/die-verschiedenen-saechsischen-dialekte/"/>
+        <dcterms:hasPart rdf:resource="https://de.pons.com/p/wissensecke/wortschatz-to-go/saechsische-woerter"/>
+        <dcterms:hasPart rdf:resource="https://dresden.sehenswuerdigkeiten-online.de/infos/sprachfuehrer.html"/>
+        <dcterms:hasPart rdf:resource="https://www.sprachschule-aktiv-leipzig.de/die-zehn-wichtigsten-woerter-aus-dem-saechsischen/"/>
+        <dcterms:hasPart rdf:resource="https://dsa.info/sachsen"/>
+        <dcterms:hasPart rdf:resource="https://sgladschdglei.net/woerterbuch/#Vornamen"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_7">
+        <dc:title>Texte</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_8"/>
+        <dcterms:hasPart rdf:resource="https://web.archive.org/web/20240808042125/https://incubator.wikimedia.org/wiki/Wp/sxu/Main_Page"/>
+        <dcterms:hasPart rdf:resource="https://www.sachsen-lese.de/index.php?article_id=89"/>
+        <dcterms:hasPart rdf:resource="https://www.instagram.com/simplysaxony/"/>
+        <dcterms:hasPart rdf:resource="https://www.dw.com/downloads/25835496/alltagsdeutsch-s"/>
+        <dcterms:hasPart rdf:resource="https://www.facebook.com/mundartsachsen/?locale=de_DE"/>
+        <dcterms:hasPart rdf:resource="https://sgladschdglei.net/lustiges/#Text"/>
+        <dcterms:hasPart rdf:resource="https://www.sachsen-lese.de/index.php?article_id=123"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_8">
+        <dc:title>SLUB</dc:title>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id1883090938"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id514875712"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id1883091497"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id513789154"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id514846992"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id402326792"/>
+        <dcterms:hasPart rdf:resource="/id/0-631497331"/>
+        <dcterms:hasPart rdf:resource="https://digital.slub-dresden.de/id513639071"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_10">
+        <dc:title>Report</dc:title>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2307.00382"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-89176-251-0"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-89176-332-6"/>
+        <dcterms:hasPart rdf:resource="https://aclanthology.org/2025.coling-main.678/"/>
+        <dcterms:hasPart rdf:resource="#item_78"/>
+        <dcterms:hasPart rdf:resource="https://web.archive.org/web/20240808042125/https://incubator.wikimedia.org/wiki/Wp/sxu/Main_Page"/>
+        <dcterms:hasPart rdf:resource="https://www.sachsen-lese.de/index.php?article_id=89"/>
+        <dcterms:hasPart rdf:resource="https://www.instagram.com/simplysaxony/"/>
+        <dcterms:hasPart rdf:resource="https://www.sachsen-lese.de/index.php?article_id=123"/>
+        <dcterms:hasPart rdf:resource="https://aclanthology.org/2024.findings-naacl.263/"/>
+        <dcterms:hasPart rdf:resource="https://dsa.info/sachsen/uebersicht"/>
+        <dcterms:hasPart rdf:resource="https://www.so-geht-saechsisch.de/dialekt/interview-mit-dr-evelyn-koch"/>
+        <dcterms:hasPart rdf:resource="https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/data.csv"/>
+        <dcterms:hasPart rdf:resource="https://tesseractocr.org/"/>
+        <dcterms:hasPart rdf:resource="https://kraken.re/main/index.html"/>
+        <dcterms:hasPart rdf:resource="https://github.com/Knowledge-aware-AI/saxon-corpus/blob/main/src/llm/prompts/extract_from_html.md"/>
+        <dcterms:hasPart rdf:resource="https://www.slub-dresden.de/"/>
+    </z:Collection>
+</rdf:RDF>
